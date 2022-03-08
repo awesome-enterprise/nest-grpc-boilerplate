@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "alwaysStrict": true,
+        "declaration": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es2021",
+        "declarationDir": "./typings",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "importHelpers": true,
+        "esModuleInterop": true,
+        "declarationMap": true,
+        "inlineSourceMap": true,
+        "incremental": true,
+        "skipLibCheck": true,
+        "lib": [
+            "ESNext"
+        ],
+        "types": [
+            "node",
+            "reflect-metadata",
+        ],
+        "outDir": "./build"
+    },
+    "paths": {
+        "*": [
+            "types/*"
+        ]
+    },
+    "include": [
+        "src/**/*.ts",
+    ],
+    "exclude": [
+        "node_modules",
+        "coverage",
+        "**/*.spec.ts"
+    ]
+}

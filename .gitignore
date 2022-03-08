@@ -1,0 +1,9 @@
+.env
+.env.*
+/build
+/node_modules
+/.idea
+/typings
+/coverage
+/.nyc_output
+/archives
